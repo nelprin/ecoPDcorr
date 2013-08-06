@@ -14,7 +14,7 @@ exportClasses(phylo4com)
 exportMethods(phylo4com)
 
 # metric methods
-exportMethods(pd, pae, iac, ed, eed, hed, aed, eaed, haed, value)
+exportMethods(pd_from_Cadotte, pae, iac, ed, eed, hed, aed, eaed, haed, value)
 exportMethods(shannon, simpson)
 
 #----------------------------------------------------------------------
