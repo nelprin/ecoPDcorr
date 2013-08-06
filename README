@@ -1,0 +1,6 @@
+ecoPD is a package available from R-Forge written by Jim Regetz and Marc Cadotte. It is a
+package that implements the metrics introduced in their 2010 Ecology Letters paper. The
+package defines a function, pd(), that conflicts with the pd function in the picante 
+package. To circumvent that issue, I have redefined the function and all its instances
+in this package. THE PACKAGE IS STILL ENTIRELY THEIRS AND I AM POSTING IT HERE ONLY TO 
+FACILITATE INSTALLATION (e.g. directly into R using the devtools package).

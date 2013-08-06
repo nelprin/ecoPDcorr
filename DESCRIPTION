@@ -1,0 +1,18 @@
+Package: ecoPD
+Type: Package
+Title: Ecologically-informed phylodiversity metrics
+Version: 0.2
+Date: 2009-11-18
+Author: Jim Regetz, Marc Cadotte, Jonathan Davies
+Maintainer: Jim Regetz <regetz@nceas.ucsb.edu>
+Depends: R (>= 2.10), methods, phylobase
+Description: A set of metrics and functions for combining ecological and phylogenetic information
+License: GPL
+Collate: phylo4com.R coerce.R genera.R utilities.R community.R pd.R
+        aed.R iac.R pae.R shannon.R simpson.R indices.R plots.R
+LazyLoad: yes
+LazyData: yes
+Repository: R-Forge
+Repository/R-Forge/Project: ecopd
+Repository/R-Forge/Revision: 94
+Packaged: 2012-04-13 10:30:46 UTC; rforge
